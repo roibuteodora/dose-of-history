@@ -1,0 +1,781 @@
+body{
+    background-color: #2B2B2B;
+    font-family: "League Spartan", sans-serif;
+}
+ 
+
+/* Navbar */
+#mainNavbar{
+    background-color: #DCDBDB;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mainNavbar .nav-link{
+   font-size: 1rem;
+    font-weight:300;
+    color: #2B2B2B;
+}
+
+#mainNavbar .nav-link:hover{
+    font-size: 1rem;
+        font-weight:400;
+        color: #9B9B9B;
+    }
+
+
+#mainNavbar .navbar-brand {
+    color:#2B2B2B;
+    font-weight: 700;
+    font-size: 2;
+    text-align: right;
+}
+
+
+.navbar.scrolled {
+    background: #821801 !important;
+    transition: background 0.7s !important;
+    color: #D9D9D9 !important;
+}
+
+
+#navLinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding-right: 15px; 
+}
+
+.nav-link:active{
+  color: #D9D9D9;
+}
+
+
+
+
+/* Titlul paginii, text si imaginea */
+#first-section{
+    padding-top: 100px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#first-section span {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#first-section h1{
+    color: #D9D9D9;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#first-section strong {
+    color: #821801;
+    font-size: 1em;
+}
+
+/* Cardurile de sub imagine */
+ .direction {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+  .short-intro-table-span{
+    display: flex;
+    justify-content: flex-end;
+  } 
+
+
+.short-intro-table{
+    width: 59em;
+    background-color: #821801;
+    color: #D9D9D9;
+    border-radius: 1em;
+}
+
+.short-intro-table th{
+    border-bottom: 1px solid #dcdbdb42;
+    
+}
+
+.short-intro-table td,th{
+      text-align: center;
+      padding-left: 20px;
+
+}
+
+.pd20{
+    padding-right: 20px;
+}
+
+
+
+
+/*first section*/
+
+#card1{
+    display: flex;
+    margin-top: 2em;
+    border-radius: 1.5em;
+    text-align: center;
+    margin-left:1em;
+
+    width: 32rem;
+    height: 37rem;
+    background-color: #D9D9D9;
+}
+
+#card1 h4{
+    font-weight: 700;
+    text-align: start !important;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+.card-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3em;
+  
+}
+
+.card-img {
+    width: 29em;
+    height: 17em;
+    margin-left:1.4em;
+    margin-bottom: 2em;
+   border-radius: 1em;
+}
+
+.card-img-2 {
+    
+    border-top-right-radius: 0.5em;
+    border-top-left-radius:0.5em;
+    width: 19em;
+    height: 18em;
+    margin-left:6.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+
+
+/*second section*/
+.card-sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+#card2 {
+    display: flex;
+    margin-top: 2em;
+    border-radius: 1em;
+    text-align: center;
+    margin-left:1em;
+    width: 83rem;
+    height: 20rem;
+    background-color: #D9D9D9;
+}
+
+#card2 h4 {
+    font-weight: 700;
+    text-align: start !important;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* 3rd section */
+#section-3{
+    margin-top: 4em;
+
+}
+
+
+#section-3 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+
+.lead {
+    color: #D9D9D9;
+    text-align: justify;
+}
+
+.lead1 {   /* textul de sub titlul mare */
+    color: #D9D9D9;
+    text-align: center;
+}
+
+#img-section-3{
+    border-radius: 1em;
+}
+
+
+
+/* 4th section */
+#section-4{
+    margin-top: 6em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#section-4 img{
+    margin-left: 3em;
+    border-radius: 1em;
+}
+
+
+
+/* 5th section */
+.section-5{
+    margin-top: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.section-5 h5 {
+  font-weight: bold;
+}
+
+
+#card-5{
+    width: 80em;
+    border-radius: 1em;
+}
+
+#card-5 img{
+    max-width: 300px;
+    border-radius: 1em;
+    align-content: center;
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+#card-5 p{
+    margin-left: 1em;
+    text-align: center;
+}
+
+
+
+
+/* 6th section */
+#section-6{ 
+    margin-top: 9em;
+}
+
+
+#section-6 h2 {
+    color: #D9D9D9;
+}
+
+
+
+
+/* 7th senction */
+#section-7 {
+    margin-top: 9em;
+}
+
+#section-7 h2{
+    color: #D9D9D9;
+}
+
+#section-7 img {
+    
+    border-radius: 1em;
+   margin-left: 2em;
+   margin-bottom: 3em;
+}
+
+
+
+
+/* 8th section */
+#section-8 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-8 p:nth-of-type(1){
+    margin-bottom: 3em;
+}
+
+#section-8 img{
+    border-radius: 1em;
+}
+
+
+
+
+/* 9th section */
+#section-9 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+
+#section-9{
+    margin-top: 3em;
+}
+
+#section-9 img{
+    margin-left:4em;
+    border-radius: 1em;
+}
+
+
+
+
+/* 10th section */
+#section-10 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-10{
+    margin-top: 8em;
+}
+
+
+
+
+/* section 11 */
+#section-11{
+    margin-top:8em;
+}
+
+#section-11 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+
+
+.accordion-item {
+    background-color: #2B2B2B;
+    color: #D9D9D9;
+}
+
+
+#section-11 img{
+    border-radius: 1em;
+}
+
+
+
+
+/* section 12 */
+#section-12 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-12 {
+    padding-top: 9em;
+}
+
+#section-12 img{
+    border-radius: 1em;
+    margin-left: 4em;
+}
+
+
+
+
+/* section 13 */
+#section-13 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-13 {
+    margin-top: 6em;
+}
+
+#section-13 img{
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+/* section-14 */
+#section-14 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-14{
+    margin-top: 6em;
+}
+
+
+/* section-15 */
+#section-15 h2 {
+    color: #D9D9D9;
+    font-weight: 500;
+}
+
+#section-15{
+    margin-top: 6em;
+}
+
+#section-15 img{
+    border-radius: 1em;
+}
+
+
+/*section-16*/
+#section-16 {
+    margin-top: 6em;
+}
+
+#section-16 img{
+    border-radius: 1em;
+    margin-left: 2em;
+    margin-bottom: 3em;
+}
+
+
+/*section-17*/
+#section-17 {
+    margin-top: 6em;
+}
+
+
+#section-18 h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#section-18 {
+    margin-bottom: 6em;
+}
+
+
+
+#card3 {
+    display: flex;
+    margin-top: 2em;
+    border-radius: 1em;
+    text-align: center;
+    margin-left:1em;
+    width: 83rem;
+    height: 23rem;
+    background-color: #D9D9D9;
+}
+
+
+
+.last-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.last-section iframe{
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+.last-section iframe:nth-of-type(2){
+    margin-left:10px
+}
+
+.video-section {
+    color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+footer {
+    display: block;
+    color: #D9D9D9;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+@media(max-width:1700px) {
+    .short-intro-table-span{
+        display:flex;
+        justify-content:center;
+    }
+
+    
+}
+
+
+
+@media(max-width: 1200px) {
+    #card2 {
+      height: 26rem;
+    }
+    #card3{
+        height: 27rem
+    }
+}
+
+
+@media(max-width:1056px){
+    #card-5 img{
+        display: none;
+    }
+    #card-5{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #card3{
+        height: 31rem;
+    }
+}
+
+@media(max-width:890px) {
+    #card2 {
+       height: 32em;
+    }
+     
+    #card3{
+        height: 35rem;
+    }
+}
+
+
+
+@media(max-width:768px){
+ #section-4 img{
+        margin-left: 2em;
+        margin-right: 2em;
+       }
+    
+       #section-9 img{
+        margin-left:4em;
+        margin-right: 4em;
+    }
+    
+    #section-8 img{
+        margin-left:4em;
+        margin-right: 4em;
+    }
+
+    #section-10{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    #section-11{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+
+    #section-11 img{
+        margin-left: 2em;
+        margin-right: 2em;
+        
+}
+
+  #section-12 img{
+     margin-right: 2em;
+     margin-left: 2em;
+}
+
+#section-16 img{
+    margin-right: 2em;
+}
+
+#card3{
+    height: 40rem;
+}
+  
+}
+
+
+@media (min-width: 768px) { 
+       #navbarNav {
+        display: flex;
+        justify-content: flex-end;
+       }
+      
+       #section-7 img{
+        margin-left: 2em;
+        margin-right: 2em;
+       }
+
+}
+
+
+
+@media(max-width:710px) {
+    #card2{
+        height: 34em;
+    }
+}
+
+
+
+@media(max-width:671px) {
+    #card2{
+        height: 39em;
+    }
+
+    #card3{
+        height: 45rem;
+    }
+}
+
+
+@media(max-width: 581px) {
+   #card2 {
+    height: 45em;
+   }
+   #card3{
+    height: 50rem;
+}
+}
+
+
+@media(max-width:532px) {
+  #card2 {
+       height: 48em;
+    }
+    #card3{
+        height: 59rem;
+    }
+}
+
+
+@media(min-width:430px) and (max-width:532px) {
+    #card1 {
+        width: 26rem;
+        
+    }
+   
+    #card1:nth-of-type(2) {
+        height: 40rem;
+    }
+
+
+    .card-img {
+       width: 21em;
+       margin-left: 2.3em;
+    }
+
+    .card-img-2 {
+        border-top-right-radius: 1em;
+        border-top-left-radius:1em;
+        width: 19em;
+        height: 18em;
+        margin-left:3.7em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .short-intro-table-span{
+        margin-right: 1em;
+    }
+}
+
+
+
+@media(max-width:465px) {
+    #card2 {
+        height: 52em;
+    }
+
+    #card3{
+        height: 64rem;
+    }
+}
+
+
+@media(max-width: 439px) {
+    #card2 {
+        height: 63em;
+    }
+    #card3{
+        height: 75rem;
+    }
+}
+
+
+@media (max-width:429px) {
+    .card-img{
+        width: 19em;
+        height: 11rem;
+        margin-left: 1.4em;
+        margin-bottom: 1em;
+     }
+
+     .card-img-2{
+        border-top-right-radius: 1em;
+        border-top-left-radius:1em;
+        width: 15em;
+        height: 15em;
+        margin-left:3.7em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    
+    #card1:nth-of-type(2){
+        height: 40rem;
+    }
+
+    }
+
+
+
+    #section-3 {
+        scroll-behavior: smooth;
+      }
+
+    #section-6 {
+        scroll-behavior: smooth;
+    }
+
+    #section-10 {
+        scroll-behavior: smooth;
+    }
+
+    #section-15 {
+        scroll-behavior: smooth;
+    }
+
+    #section-18 {
+        scroll-behavior: smooth;
+    }
